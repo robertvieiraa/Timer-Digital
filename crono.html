@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste - Cronômetro</title>
+    <style>
+        h1 {
+            color: #fff;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        div{text-align: center;}
+
+        button {
+            color: #fff;
+            height: 2.2em;
+            width: 5.5em;
+            border-radius: 2px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .N1 {
+            background-color: green;
+        }
+
+        .N2 {
+            background-color: gray;
+
+        }
+
+        .N3{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1 id='watch'>00:00</h1>
+    <button class="N1" onclick="start()">Iniciar</button>
+    <button class="N2" onclick="pause()">Pausar</button>
+    <button class="N3" onclick="stop()">Parar</button>
+    </div> <script src="crono.js"></script>
+</body>
+</html>
